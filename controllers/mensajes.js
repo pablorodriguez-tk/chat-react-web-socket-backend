@@ -12,7 +12,7 @@ const obtenerChat = async (req = request, res = response) => {
     ],
   })
     .sort({
-      createdAt: "desc",
+      createdAt: "asc",
     })
     .limit(30);
 
